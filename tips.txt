@@ -1,0 +1,39 @@
+To create a new environment in Anaconda:
+
+```powershell
+conda create -n myenv python=3.11
+```
+
+Replace `myenv` with whatever name you want (e.g. `lightgbm-env`), and adjust the Python version if needed. This creates the environment under `anaconda3/envs/myenv` automatically — you don't need to specify the path yourself.
+
+Then activate it:
+
+```powershell
+conda activate myenv
+```
+
+And once you're in it, install LightGBM:
+
+```powershell
+conda install -c conda-forge lightgbm
+```
+
+A few useful variations:
+
+- **Create with multiple packages at once:**
+  ```powershell
+  conda create -n myenv python=3.11 lightgbm -c conda-forge
+  ```
+  (does the create + install in one step)
+
+- **Check what environments exist:**
+  ```powershell
+  conda env list
+  ```
+
+- **Deactivate when done:**
+  ```powershell
+  conda deactivate
+  ```
+
+Want to just do it in one shot with LightGBM included, or set it up empty first and add packages as you go?
