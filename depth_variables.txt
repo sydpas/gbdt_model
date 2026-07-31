@@ -1,0 +1,20 @@
+for depth:
+
+x drops ihfc heatflow, both ps and stein depth, and stein heat flow, but keeps lat, long, age, and ps heat flow.
+y is just ps depth.
+
+x_train is the 80% data left over to be trained so bye bye
+x_test is the 20% that is saved to be compared to later
+
+y_train is the dataset we want to predict that we take 80% of to train
+y_test is the 20% left over to compare to the prediction
+
+train_data is a dataset that consists of the x and y training data
+test_data is a dataset that contains the x and y raw data to be compared to later
+
+the model is based on set parameters, the training data to be inputted in, the valid data that is kept from being touched
+
+y_pred is created from the model predicting depth values using the x_test comparison data
+
+so actual: y_test (same size as prediction)
+prediction: y_pred
