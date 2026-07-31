@@ -1,5 +1,0 @@
-saving parameters for this dataset...
-learning rate: 0.1
-num_boost_rate: 100
-test size: 0.2
-gives mean of: 0.12544743185859192
