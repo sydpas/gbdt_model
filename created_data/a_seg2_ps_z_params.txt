@@ -2,4 +2,4 @@ saving parameters for this dataset...
 learning rate: 0.1
 num_boost_rate: 100
 test size: 0.2
-gives mean of: -0.014018928133092787
+gives mean of: -0.4537173942000081and this was for lat, long, and ihfc
