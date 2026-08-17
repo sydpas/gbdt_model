@@ -1,0 +1,21 @@
+saving parameters for this dataset...
+learning rate: 0.1
+num_boost_rate: 500
+test size: 0.2
+num leaves: 33
+min data in leaf: 20
+
+description:
+count    11060.000000
+mean        -0.172356
+std          9.471634
+min        -84.402788
+25%         -3.800345
+50%         -0.114628
+75%          3.294825
+max         76.913362
+Name: FA, dtype: float64
+RMSE: 9.472774328419804R^2: 0.9010111292924438
+
+note: this was for random state 17
+- also this is for bathy sized dataset but because the values were correlated to bathy it follows a bathymetry trend i guess which duh
