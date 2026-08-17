@@ -15,7 +15,8 @@ min        -84.402788
 75%          3.294825
 max         76.913362
 Name: FA, dtype: float64
-RMSE: 9.472774328419804R^2: 0.9010111292924438
+RMSE: 9.472774328419804
+R^2: 0.9010111292924438
 
 note: this was for random state 17
 - also this is for bathy sized dataset but because the values were correlated to bathy it follows a bathymetry trend i guess which duh

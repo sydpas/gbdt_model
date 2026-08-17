@@ -1,0 +1,22 @@
+saving parameters for this dataset...
+learning rate: 0.1
+num_boost_rate: 500
+test size: 0.2
+num leaves: 33
+min data in leaf: 20
+
+description:
+count    3340.000000
+mean       -0.262827
+std        17.693487
+min      -110.548325
+25%        -6.519581
+50%        -0.230067
+75%         5.548043
+max       103.919113
+Name: FA, dtype: float64
+RMSE: 17.69279057564522
+R^2: 0.7277109948518652
+
+note: this was for random state 17
+- this has the sed added on, trying to see if anything changes
