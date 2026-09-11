@@ -19,4 +19,4 @@ RMSE: 23.517929083687243
 R^2: 0.5188997481752581
 
 note: this was for random state 17
-- no lola but with gravity data correlation. looks the best for sure. 
+- model is NOT trained on lat/long; with grav data correlation
