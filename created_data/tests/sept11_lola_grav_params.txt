@@ -1,0 +1,22 @@
+saving parameters for this dataset...
+learning rate: 0.1
+num_boost_rate: 100
+test size: 0.2
+num leaves: 33
+min data in leaf: 20
+
+description:
+count    58.000000
+mean      0.815233
+std       2.593476
+min      -3.981088
+25%      -0.930242
+50%       0.578475
+75%       2.277064
+max       7.036521
+Name: FA, dtype: float64
+RMSE: 2.6971757001642516
+R^2: 0.15234803198046465
+
+note: this was for random state 22
+- model is trained on lat/long; with grav data correlation
