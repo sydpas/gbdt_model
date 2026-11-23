@@ -1,0 +1,21 @@
+saving parameters for this dataset...
+learning rate: 0.1
+num_boost_rate: 100
+test size: 0.2
+num leaves: 33
+min data in leaf: 20
+
+description:
+count    1748.000000
+mean        0.007435
+std         0.187994
+min        -1.161060
+25%        -0.004570
+50%         0.000669
+75%         0.007159
+max         0.517630
+Name: FA02, dtype: float64
+RMSE: 0.1880871658263399
+R^2: 0.9954767628920834
+
+note: this was for random state 9
